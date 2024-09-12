@@ -1,0 +1,212 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-margin: 100px;
+  color: white;
+}
+
+body{
+  background-color: #2B2B2B;
+  font-family: "Work Sans", sans-serif;
+}
+
+h3{
+  font-size: 38px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+header{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  padding:0 54px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+header button{
+  border: none;
+  padding: 20px 30px;
+  display: flex;
+  background-color: #A259FF;
+  font-weight: 600;
+  border-radius: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+header button img{
+  height: 20px;
+}
+
+header img{
+  height: 32px;
+}
+
+.menu_list{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+main{
+  max-width: 1280px;
+  margin: auto;
+}
+
+main button {
+  border: none;
+  padding: 20px 50px;
+  display: flex;
+  background-color: #A259FF;
+  font-weight: 600;
+  border-radius: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.standart_a{
+  padding: 80px 115px;
+}
+
+.first_container {
+  display: flex;
+  gap: 30px;
+}
+
+.first_container--text{
+  width: 510px;
+}
+
+.first_container--text h1{
+  font-size: 67px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.first_container--text p {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.first_container--text button{
+  margin: 30px 0;
+}
+
+.additional_list{
+  display: flex;
+  gap: 30px;
+}
+
+.additional_list-item{
+  flex-basis: 150px;
+  display: grid;
+}
+
+.additional_list-item h4{
+  font-family: "Space Mono", monospace;
+  font-size: 28px;
+}
+
+.additional_list-item span{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.first_container--img{
+  width: 510px;
+  height: 510px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+
+.artist_card{
+  display: grid;
+  gap: 10px;
+}
+
+.first_container .artist_card{
+  padding: 22px 20px;
+}
+
+.artist_card h5{
+  font-size: 22px;
+}
+
+.artist_card--item{
+  display: flex;
+  gap: 12px;
+}
+
+.artist_card--item img{
+  height: 24px;
+}
+
+
+
+
+.trending_text{
+  padding: 0 2px;
+  margin-bottom: 60px;
+}
+
+.trending_text h3{
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.trending_text p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.trending_contant{
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending_contant--items{
+  margin-bottom: 15px;
+}
+
+.trending_contant--items > img{
+  width: 330px;
+  height: 330px;
+  margin-bottom: 15px;
+}
+
+.trending_contant--secondary{
+  display: flex;
+  gap: 15px;
+}
+
+.trending_contant--secondary > *{
+  width: 100px;
+  height: 100px;
+}
+
+.trending_contant--secondary > button{
+  padding: 0;
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+}
+
+.trending_contant--secondary > button > a{
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
