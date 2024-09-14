@@ -5,11 +5,17 @@
   scroll-behavior: smooth;
   scroll-margin: 100px;
   color: white;
+  overflow-x: hidden;
 }
 
 body{
   background-color: #2B2B2B;
   font-family: "Work Sans", sans-serif;
+}
+
+h2{
+  font-size: 51px;
+  font-weight: 500;
 }
 
 h3{
@@ -148,8 +154,9 @@ main button {
   font-weight: 500;
 }
 
-.artist_card span{
+.artist_card--item span{
   font-weight: 300;
+  margin-top: 2px;
 }
 
 .artist_card--item{
@@ -418,4 +425,272 @@ main button {
   font-family: "Space Mono", monospace;
   font-size: 12px;
   color: #858584;
+}
+
+
+
+
+.highlight{
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(162, 89, 255, 1) 100%), url(img/BgImg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 640px;
+  align-content: end;
+}
+
+.highlight_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.highlight_content--item {
+  display: grid;
+  gap: 30px;
+}
+
+.highlight_content--item .artist_card--item{
+  background-color: #3B3B3B;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: min-content;
+}
+
+.highlight_content--item > button{
+  width: fit-content;
+  background-color: #fff;
+  color: #000;
+}
+
+.countdown{
+  background-color: #3b3b3b88;
+  backdrop-filter: blur(5px);
+  padding: 30px;
+  border-radius: 20px;
+  height: min-content;
+}
+
+.countdown > p{
+  margin-bottom: 10px;
+  font-family: "Space Mono", monospace;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.countdown_content{
+  display: flex;
+  gap: 10px;
+}
+
+.countdown_content > div{
+  display: grid;
+  gap: 5px;
+}
+
+.value{
+  font-family: "Space Mono", monospace;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.value_name{
+  font-family: "Space Mono", monospace;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.colon{
+  font-family: "Space Mono", monospace;
+  font-size: 28px;
+}
+
+.how_work--title{
+  margin-bottom: 48px;
+}
+
+.how_work--title > h3{
+  font-weight: 500;
+}
+
+.how_work--title > p{
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.how_work--contant {
+  display: flex;
+  gap: 30px;
+}
+
+.how_work--item{
+  padding: 10px 30px 30px 30px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+  text-align: center;
+  width: 330px;
+}
+
+.how_work--item img{
+  width: 250px;
+  height: 250px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.how_work--item h5{
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.how_work--item p{
+  font-weight: 300;
+}
+
+.join_container{
+  padding: 40px 115px 80px 115px;
+}
+
+.join_container--block{
+  background-color: #3B3B3B;
+  padding: 60px;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.join_container--block img{
+  border-radius: 20px;
+}
+
+.join_block--text h3{
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.join_block--text p{
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.subscribe-container{
+  display: flex;
+  width: 100%;
+  position: relative;
+  height: 56px;
+}
+
+.email-input{
+  width: 100%;
+  border: none;
+  padding: 20px;
+  color: #000;
+  border-radius: 20px;
+}
+
+.email-input::placeholder{
+  color: #000;
+}
+
+.subscribe-button{
+  position: absolute;
+  z-index: 2;
+  padding: 18px 50px;
+  right: 0;
+}
+
+.join_block--text{
+  align-self: center;
+}
+
+footer{
+  width: 100vw;
+  background-color: #3B3B3B;
+}
+
+.footer_container{
+  padding: 40px 115px;
+  width: 1280px;
+  margin: auto;
+}
+
+.footer_list--item h5{
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+footer button{
+  border: none;
+  padding: 20px 50px;
+  display: flex;
+  background-color: #A259FF;
+  font-weight: 600;
+  border-radius: 20px;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer_list{
+  padding: 0 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .subscribe-container{
+  width: 420px;
+  height: 56px;
+}
+
+.footer_list--item{
+  display: grid;
+  height: min-content;
+}
+
+.fli_1 img{
+  margin-bottom: 30px;
+}
+
+.fli_1 a{
+  max-width: 238px;
+  margin-bottom: 20px;
+}
+
+.footer_list--item  a{
+  color: #ccc;
+  font-weight: 300;
+}
+
+.social_media img{
+  width: 32px;
+  height: 32px;
+}
+
+.footer_menu{
+  height: min-content;
+  display: grid;
+  gap: 20px;
+}
+
+.fli_2 > a{
+  max-width: 320px;
+  margin-bottom: 20px;
+}
+
+footer hr{
+  border: solid #858584 1px;
+  margin-bottom: 20px;
+}
+
+.footer_container > p{
+  font-size: 14px;
+  color: #858584;
+  font-weight: 400;
 }
