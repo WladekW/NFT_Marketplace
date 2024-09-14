@@ -75,7 +75,7 @@ main button {
   font-weight: 600;
   border-radius: 20px;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
 }
 
 .standart_a{
@@ -145,6 +145,11 @@ main button {
 
 .artist_card h5{
   font-size: 22px;
+  font-weight: 500;
+}
+
+.artist_card span{
+  font-weight: 300;
 }
 
 .artist_card--item{
@@ -154,22 +159,23 @@ main button {
 
 .artist_card--item img{
   height: 24px;
+  width: 24px;
 }
 
 
 
 
-.trending_text{
+.trending_title{
   padding: 0 2px;
   margin-bottom: 60px;
 }
 
-.trending_text h3{
+.trending_title h3{
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-.trending_text p {
+.trending_title p {
   font-size: 22px;
   font-weight: 300;
 }
@@ -209,4 +215,207 @@ main button {
   width: 100%;
   vertical-align: middle;
   text-align: center;
+}
+
+
+
+
+
+
+
+.top_artists button{
+  padding: 18px 48px;
+  font-weight: 600;
+  border: #A259FF solid 2px;
+  background-color: transparent;
+}
+
+
+.top_artists--title {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.top_artists--text h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.top_artists--text p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.top_artists--list{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.top_artists--card{
+  height: 238px;
+  width: 240px;
+  padding: 20px;
+  background-color: #3B3B3B;
+  position: relative;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.artist--img{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.artist--img > span{
+  width: 30px;
+  height: 30px;
+  background-color: #2B2B2B;
+  color: #858584;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+}
+
+.artist--img > img{
+  margin: 0 auto;
+}
+
+.artist--name > h5{
+  font-size: 22px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.artist--inf{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ai_1{
+  color: #858584;
+  padding-top: 2px;
+} 
+
+.ai_2{
+  font-family: "Space Mono", monospace;
+  color: #fff;
+}
+
+
+
+
+
+
+.cateries_title{
+  margin-bottom: 60px;
+}
+
+.cateries_title h3{
+  font-weight: 500 ;
+}
+
+.categories_list{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.categories_list--item{
+  border-radius: 20px;
+  background-color: #3B3B3B;
+}
+
+.categories_list--item img{
+  width: 100%;
+}
+
+.categories_list--item > div{
+  padding: 20px 30px;
+}
+
+.categories_list--item h5{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
+
+
+.discover button {
+  padding: 18px 48px;
+  font-weight: 600;
+  border: #A259FF solid 2px;
+  background-color: transparent;
+}
+
+
+.discover--title {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.discover--text h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.discover--text p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.discover_list{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.discover_list--item{
+  width: 330px;
+  border-radius: 20px;
+  display: grid;
+}
+
+.discover_list--item > img{
+  width: 100%;
+}
+
+.discover_item--inf{
+  background-color: #3B3B3B;
+  padding: 20px 30px;
+  border-radius: 0 0 20px 20px;
+}
+
+.nft_inf{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+.nft_inf-1{
+  display: grid;
+  gap: 6px;
+}
+
+.nft_inf-2 {
+  display: grid;
+  gap: 6px;
+  text-align: end;
+}
+
+.nft_inf-11{
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
+  color: #858584;
 }
