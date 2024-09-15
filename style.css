@@ -113,6 +113,10 @@ main button {
   margin: 30px 0;
 }
 
+.first_container--text>.first_container--img {
+  display: none;
+}
+
 .additional_list{
   display: flex;
   gap: 30px;
@@ -192,11 +196,11 @@ main button {
   justify-content: space-between;
 }
 
-.trending_contant--items{
+.trending_contant--item{
   margin-bottom: 15px;
 }
 
-.trending_contant--items > img{
+.trending_contant--item > img{
   width: 330px;
   height: 330px;
   margin-bottom: 15px;
@@ -647,6 +651,7 @@ footer button{
 footer .subscribe-container{
   width: 420px;
   height: 56px;
+  margin-top: 30px;
 }
 
 .footer_list--item{
@@ -693,4 +698,251 @@ footer hr{
   font-size: 14px;
   color: #858584;
   font-weight: 400;
+}
+
+
+
+
+@media screen and (max-width: 500px){
+
+
+  header {
+    padding: 15px 30px;
+    height: fit-content;
+  }
+
+
+  .title_h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .title_p{
+    font-size: 16px;
+  }
+
+
+  .first_container--text h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .first_container--text> h1> br {
+    display: none;
+  }
+  
+  .first_container--text p{
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+
+  .menu_list{
+    display: none;
+  }
+
+  header nav{
+    background-image: url(icon/Burger\ Menu.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+
+  .standart_a{
+    padding: 40px 30px;
+  }
+
+  .first_container--text > button{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .first_container--text > .first_container--img{
+    display: block;
+    width: 100%;
+    height: min-content;
+  }
+
+  .first_container--img > img{
+    width: 100%;
+  }
+
+  .first_container > .first_container--img {
+    display: none;
+  }
+
+  .dn {
+    display: none;
+  }
+
+  .trending_contant{
+    display: block;
+  }
+
+  .trending_contant--item img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .trending_contant--secondary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .trending_contant--secondary button{
+    height: 100%;
+    width: 100%;
+  }
+
+  .title_c{
+    margin-bottom: 20px;
+  }
+
+  .top_artists>button{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .top_artists--list{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .top_artists--card{
+    width: 100%;
+    display: flex;
+    height: min-content;
+  }
+
+  .artist--img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0;
+  }
+
+  .artist--img > span{
+    top: 13px;
+    left: 12px;
+  }
+
+  .artist--name>h5{
+    text-align: left;
+  }
+
+  .categories_list{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .discover>button{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .discover_list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .discover_list--item{
+    width: auto;
+  }
+  
+  .highlight_content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .countdown_content {
+    justify-content: space-between;
+  }
+
+  .highlight_content>button{
+    width: 100%;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .how_work--contant{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .how_work--item{
+    display: flex;
+    width: auto;
+    gap: 20px;
+    text-align: left;
+  }
+
+  .how_work--item>img{
+    min-width: 100px;
+    height: 100px;
+    margin-bottom: 0;
+  }
+
+  .join_container{
+    padding: 40px 30px;
+  }
+
+  .join_container--block{
+    background: transparent;
+    display: grid;
+    padding: 0;
+    gap: 30px;
+  }
+
+  .join_container--block>img{
+    width: 100%;
+  }
+
+  .subscribe-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    height: auto;
+  }
+
+  .subscribe-button{
+    position: static;
+  }
+
+  .email-input{
+    padding: 12px 20px;
+  }
+
+  .subscribe-button{
+    padding: 12px 20px;
+    justify-content: center;
+  }
+
+  .footer_container{
+    padding: 40px 30px;
+    width: fit-content;
+  }
+
+  .footer_list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+
+  footer .subscribe-container{
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+  }
+
+  .fli_2{
+    margin-bottom: 30px;
+  }
+
 }
