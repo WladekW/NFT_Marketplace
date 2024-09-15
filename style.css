@@ -33,6 +33,10 @@ a{
   text-decoration: none;
 }
 
+.dn_start{
+  display: none;
+}
+
 header{
   height: 100px;
   display: flex;
@@ -497,6 +501,7 @@ main button {
   font-size: 38px;
   font-weight: 600;
   line-height: 1;
+  overflow: hidden;
 }
 
 .value_name{
